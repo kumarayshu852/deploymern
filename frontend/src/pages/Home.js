@@ -24,7 +24,7 @@ function Home() {
         try {
             const token = localStorage.getItem('token');
 
-            const response = await fetch("http://localhost:8080/products", {
+            const response = await fetch("https://deploymern-api-pied.vercel.app//products", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",

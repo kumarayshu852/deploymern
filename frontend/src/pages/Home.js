@@ -83,6 +83,9 @@ function Home() {
                 <Link to="https://gandhimoderncalculator.netlify.app/" >
                     <button className="ko">6. Project Visit</button>
                 </Link>
+                     <Link to="https://virtualaisumitgandhitechai.netlify.app/">
+                    <button className="ko">7. Project Visit</button>
+                </Link>
             </div>
 
 

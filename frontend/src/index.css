@@ -117,7 +117,7 @@ button{
 .ko {
   width: 180px;
   padding: 12px;
-  background: purple;
+  background: linear-gradient(135deg, #1d4ed8, #d650f8);
   color: white;
   font-size: 16px;
   border: none;

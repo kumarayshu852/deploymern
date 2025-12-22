@@ -96,25 +96,32 @@ button{
   font-size: 22px;
   font-weight: bold;
 }
-.projects-wrapper {
+.projects-row {
   display: flex;
-  justify-content: center;   /* center horizontally */
-  gap: 20px;                 /* buttons ke beech space */
+  justify-content: center;
+  gap: 15px;
   margin-top: 20px;
+  flex-wrap: wrap;   /* screen chhoti ho to next line */
 }
+
 /* Buttons */
 .ko {
-  margin: 7px auto;
-  width: 220px;
+  width: 180px;
   padding: 12px;
   background: purple;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;
 }
+
+.ko:hover {
+  background: #a200a2;
+  transform: scale(1.05);
+}
+
 
 .ko:hover {
   background: #a200a2;

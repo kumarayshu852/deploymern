@@ -64,7 +64,7 @@ body{
 }
 
 button{
-  background-color: purple;
+  background: linear-gradient(135deg, #2563eb, #4b05ee);
   border: none;
   font-size: 20px;
   color: white;

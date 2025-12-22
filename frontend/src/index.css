@@ -21,6 +21,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+   min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
 }
 
 .container{
@@ -79,6 +81,13 @@ button{
   text-align: center;
   margin-top: 40px;
   font-family: 'Poppins', sans-serif;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
 }
 
 /* Title */
@@ -115,11 +124,19 @@ button{
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;
+   background: rgba(128, 0, 128, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .ko:hover {
-  background: #a200a2;
-  transform: scale(1.05);
+  background: rgba(162, 0, 162, 0.7);
+  transform: scale(1.07);
 }
 
 

@@ -56,37 +56,38 @@ function Home() {
                     </ul>
                 ))}
             </div>
-            <div className="projects-wrapper">
-                <h1 className="dev-title">Developed by Gandhi Tech AI Sumit Gandhi</h1>
-                <h2 className="project-heading">Our Projects</h2>
+           <div className="projects-wrapper">
+  <h1 className="dev-title">Developed by Gandhi Tech AI Sumit Gandhi</h1>
+  <h2 className="project-heading">Our Projects</h2>
 
-                <Link to="https://virtualgandhiai.netlify.app/" target="_blank">
-                    <button className="ko">1. Project Visit</button>
-                </Link>
-                 
-                <Link to="https://signup-codex-ai.netlify.app/" target="_blank">
-                    <button className="ko">2. Project Visit</button>
-                </Link>
-                 
-                <Link to="https://gandhitechaistudentmangenmentsystem.netlify.app/" target="_blank">
-                    <button className="ko">3. Project Visit</button>
-                </Link>
-                 
-                <Link to="https://gandhitechaiquizgameappreact.netlify.app/" target="_blank">
-                    <button className="ko">4. Project Visit</button>
-                </Link>
-                
-                <Link to="https://www.youtube.com/@computer-technology-s3" target="_blank">
-                    <button className="ko">5. Project Visit</button>
-                </Link>
-                
-                <Link to="https://gandhimoderncalculator.netlify.app/" >
-                    <button className="ko">6. Project Visit</button>
-                </Link>
-                     <Link to="https://virtualaisumitgandhitechai.netlify.app/">
-                    <button className="ko">7. Project Visit</button>
-                </Link>
-            </div>
+  {/* PROJECT BUTTONS */}
+  <div className="projects-row">
+    <Link to="https://virtualgandhiai.netlify.app/" target="_blank">
+      <button className="ko">1. Project Visit</button>
+    </Link>
+
+    <Link to="https://signup-codex-ai.netlify.app/" target="_blank">
+      <button className="ko">2. Project Visit</button>
+    </Link>
+
+    <Link to="https://gandhitechaistudentmangenmentsystem.netlify.app/" target="_blank">
+      <button className="ko">3. Project Visit</button>
+    </Link>
+
+    <Link to="https://gandhitechaiquizgameappreact.netlify.app/" target="_blank">
+      <button className="ko">4. Project Visit</button>
+    </Link>
+
+    <Link to="https://www.youtube.com/@computer-technology-s3" target="_blank">
+      <button className="ko">5. Project Visit</button>
+    </Link>
+
+    <Link to="https://gandhimoderncalculator.netlify.app/">
+      <button className="ko">6. Project Visit</button>
+    </Link>
+  </div>
+</div>
+
 
 
             <ToastContainer />

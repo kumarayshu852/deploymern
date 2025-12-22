@@ -96,10 +96,14 @@ button{
   font-size: 22px;
   font-weight: bold;
 }
-
+.projects-wrapper {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  gap: 20px;                 /* buttons ke beech space */
+  margin-top: 20px;
+}
 /* Buttons */
 .ko {
-  display: block;
   margin: 7px auto;
   width: 220px;
   padding: 12px;

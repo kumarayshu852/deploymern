@@ -85,12 +85,13 @@ function Home() {
     <Link to="https://gandhimoderncalculator.netlify.app/">
       <button className="ko">6. Project Visit</button>
     </Link>
+      <br/>
+      <Link to="https://a-icoder-46ea.vercel.app/">
+      <button className="ko">7. Project Visit</button>
+    </Link>
   </div>
 </div>
-
-
-
-            <ToastContainer />
+      <ToastContainer />
         </div>
     )
 }

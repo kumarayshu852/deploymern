@@ -89,6 +89,9 @@ function Home() {
       <Link to="https://a-icoder-46ea.vercel.app/">
       <button className="ko">7. AI Coder Explainer</button>
     </Link>
+       <Link to="https://chattifiy-lse6.vercel.app/login">
+      <button className="ko">7. AI Coder Explainer</button>
+    </Link>
   </div>
 </div>
       <ToastContainer />

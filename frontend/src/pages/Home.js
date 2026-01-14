@@ -90,7 +90,7 @@ function Home() {
       <button className="ko">7. AI Coder Explainer</button>
     </Link>
        <Link to="https://chattifiy-lse6.vercel.app/login">
-      <button className="ko">8. AI Coder Explainer</button>
+      <button className="ko">8. Chattyfiy</button>
     </Link>
   </div>
 </div>

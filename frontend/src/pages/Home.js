@@ -95,6 +95,10 @@ function Home() {
                 <Link to="https://chattifiy-lse6.vercel.app/login">
                     <button className="ko">8. Chattyfiy</button>
                 </Link>
+                    
+                     <Link to="https://cardbrithday.netlify.app/">
+                    <button className="ko">9. digital wish birthday card</button>
+                </Link>
             </div>
 
 

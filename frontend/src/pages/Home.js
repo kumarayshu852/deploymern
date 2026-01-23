@@ -95,7 +95,7 @@ function Home() {
        <Link to="https://cardbrithday.netlify.app/">
       <button className="ko">9. Digital wish brithday card</button>
     </Link>
-  </div>
+  
 </div>
       <ToastContainer />
         </div>

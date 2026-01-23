@@ -24,7 +24,7 @@ function Home() {
         try {
             const token = localStorage.getItem('token');
 
-            const response = await fetch("https://deploymern-api-pied.vercel.app//products", {
+            const response = await fetch("http://localhost:8080/products", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
@@ -56,46 +56,49 @@ function Home() {
                     </ul>
                 ))}
             </div>
-           <div className="projects-wrapper">
-  <h1 className="dev-title">Developed by Gandhi Tech AI Sumit Gandhi</h1>
-  <h2 className="project-heading">Our Projects</h2>
+            <div className="projects-wrapper">
+                <h1 className="dev-title">Developed by Gandhi Tech AI Sumit Gandhi</h1>
+                <h2 className="project-heading">Our Projects</h2>
 
-  {/* PROJECT BUTTONS */}
-  <div className="projects-row">
-    <Link to="https://virtualgandhiai.netlify.app/" target="_blank">
-      <button className="ko">1. virtual assistant</button>
-    </Link>
+                <Link to="https://virtualgandhiai.netlify.app/" target="_blank">
+                    <button className="ko">1. Project Visit</button>
+                </Link>
 
-    <Link to="https://signup-codex-ai.netlify.app/" target="_blank">
-      <button className="ko">2. Advance Codex AI</button>
-    </Link>
+                <Link to="https://signup-codex-ai.netlify.app/" target="_blank">
+                    <button className="ko">2. Project Visit</button>
+                </Link>
 
-    <Link to="https://gandhitechaistudentmangenmentsystem.netlify.app/" target="_blank">
-      <button className="ko">3. Student Attedance sytsem</button>
-    </Link>
+                <Link to="https://gandhitechaistudentmangenmentsystem.netlify.app/" target="_blank">
+                    <button className="ko">3. Project Visit</button>
+                </Link>
 
-    <Link to="https://gandhitechaiquizgameappreact.netlify.app/" target="_blank">
-      <button className="ko">4. Quiz APP</button>
-    </Link>
+                <Link to="https://gandhitechaiquizgameappreact.netlify.app/" target="_blank">
+                    <button className="ko">4. Project Visit</button>
+                </Link>
 
-    <Link to="https://www.youtube.com/@computer-technology-s3" target="_blank">
-      <button className="ko">5. Youtube channle</button>
-    </Link>
+                <Link to="https://www.youtube.com/@computer-technology-s3" target="_blank">
+                    <button className="ko">5. Project Visit</button>
+                </Link>
 
-    <Link to="https://gandhimoderncalculator.netlify.app/">
-      <button className="ko">6. Modern calculator  </button>
-    </Link>
-      <br/>
-      <Link to="https://a-icoder-46ea.vercel.app/">
-      <button className="ko">7. AI Coder Explainer</button>
-    </Link>
-       <Link to="https://chattifiy-lse6.vercel.app/login">
-      <button className="ko">8. Chattyfiy</button>
-    </Link>
-      
-    
-</div>
-      <ToastContainer />
+                <Link to="https://gandhimoderncalculator.netlify.app/" >
+                    <button className="ko">6. Project Visit</button>
+                </Link>
+
+                <Link to="https://gandhimoderncalculator.netlify.app/">
+                    <button className="ko">6. Modern calculator  </button>
+                </Link>
+                
+                <Link to="https://a-icoder-46ea.vercel.app/">
+                    <button className="ko">7. AI Coder Explainer</button>
+                </Link>
+
+                <Link to="https://chattifiy-lse6.vercel.app/login">
+                    <button className="ko">8. Chattyfiy</button>
+                </Link>
+            </div>
+
+
+            <ToastContainer />
         </div>
     )
 }

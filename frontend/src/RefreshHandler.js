@@ -1,7 +1,7 @@
 import {useEffect} from "react"
 import { useLocation, useNavigate } from "react-router-dom";
 
-function RefreshHandler({setIsAuthenticated}){
+function RefrshHandler({setIsAuthenticated}){
     const location =useLocation();
     const navigate=useNavigate();
 

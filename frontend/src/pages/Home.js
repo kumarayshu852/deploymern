@@ -92,10 +92,11 @@ function Home() {
        <Link to="https://chattifiy-lse6.vercel.app/login">
       <button className="ko">8. Chattyfiy</button>
     </Link>
+      <br>
        <Link to="https://cardbrithday.netlify.app/">
       <button className="ko">9. Digital wish brithday card</button>
     </Link>
-  
+    
 </div>
       <ToastContainer />
         </div>

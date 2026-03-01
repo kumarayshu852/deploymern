@@ -61,27 +61,27 @@ function Home() {
                 <h2 className="project-heading">Our Projects</h2>
 
                 <Link to="https://virtualgandhiai.netlify.app/" target="_blank">
-                    <button className="ko">1. Project Visit</button>
+                    <button className="ko">1. virtual Ai</button>
                 </Link>
 
                 <Link to="https://signup-codex-ai.netlify.app/" target="_blank">
-                    <button className="ko">2. Project Visit</button>
+                    <button className="ko">2. codex AI</button>
                 </Link>
 
                 <Link to="https://gandhitechaistudentmangenmentsystem.netlify.app/" target="_blank">
-                    <button className="ko">3. Project Visit</button>
+                    <button className="ko">3. Student mangement system</button>
                 </Link>
 
                 <Link to="https://gandhitechaiquizgameappreact.netlify.app/" target="_blank">
-                    <button className="ko">4. Project Visit</button>
+                    <button className="ko">4. quiz game</button>
                 </Link>
 
                 <Link to="https://www.youtube.com/@computer-technology-s3" target="_blank">
-                    <button className="ko">5. Project Visit</button>
+                    <button className="ko">5. youtube link</button>
                 </Link>
 
                 <Link to="https://gandhimoderncalculator.netlify.app/" >
-                    <button className="ko">6. Project Visit</button>
+                    <button className="ko">6. Moder calculator</button>
                 </Link>
 
                 <Link to="https://gandhimoderncalculator.netlify.app/">
@@ -98,6 +98,9 @@ function Home() {
                     
                      <Link to="https://cardbrithday.netlify.app/">
                     <button className="ko">9. digital wish birthday card</button>
+                </Link>
+                     <Link to="https://invertiseeatai.netlify.app/">
+                    <button className="ko">9. InvertisEat AI</button>
                 </Link>
             </div>
 

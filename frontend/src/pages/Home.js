@@ -105,7 +105,7 @@ function Home() {
                      <Link to="https://food-del-pink-kappa.vercel.app/">
                     <button className="ko">11.Food-del</button>
                 </Link>
-                     <Link to="https://food-del-r66k.vercel.app/add">
+                     <Link to="https://food-del-r66k.vercel.app/">
                     <button className="ko">12.Food-del admin panel</button>
                 </Link>
             </div>

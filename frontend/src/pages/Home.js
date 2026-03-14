@@ -100,7 +100,13 @@ function Home() {
                     <button className="ko">9. digital wish birthday card</button>
                 </Link>
                      <Link to="https://invertiseeatai.netlify.app/">
-                    <button className="ko">9. InvertisEat AI</button>
+                    <button className="ko">10. InvertisEat AI</button>
+                </Link>
+                     <Link to="https://food-del-pink-kappa.vercel.app/">
+                    <button className="ko">11.Food-del</button>
+                </Link>
+                     <Link to="https://food-del-r66k.vercel.app/add">
+                    <button className="ko">12.Food-del admin panel</button>
                 </Link>
             </div>
 

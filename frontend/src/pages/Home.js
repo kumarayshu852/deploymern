@@ -111,6 +111,9 @@ function Home() {
                      <Link to="https://pecan-whole-81535705.figma.site/">
                     <button className="ko">13.Full Stack Development Roadmap</button>
                 </Link>
+                    <Link to="https://rental-management-woad-five.vercel.app/">
+                    <button className="ko">14.Rental Management System</button>
+                </Link>
             </div>
 
 

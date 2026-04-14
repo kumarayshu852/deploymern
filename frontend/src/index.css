@@ -226,3 +226,12 @@ button:hover{
   background: rgba(255,255,255,0.3);
   transform: scale(1.07);
 }
+body{
+  background: linear-gradient(135deg,#1d2671,#c33764);
+  animation: gradientMove 8s infinite alternate;
+}
+
+@keyframes gradientMove{
+  0%{background-position: left;}
+  100%{background-position: right;}
+}

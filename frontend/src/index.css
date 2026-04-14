@@ -25,6 +25,8 @@ body{
 
   /* Better Gradient */
   background: linear-gradient(135deg, #1d2671, #c33764);
+    background: linear-gradient(135deg,#1d2671,#c33764);
+    animation: gradientMove 8s infinite alternate;
 }
 
 /* ================= */
@@ -37,7 +39,7 @@ body{
 
   border-radius: 16px;
 
-  width: 100%;
+  width: 90%;
   max-width: 400px;
 
   /* Glass Effect */
@@ -226,12 +228,78 @@ button:hover{
   background: rgba(255,255,255,0.3);
   transform: scale(1.07);
 }
-body{
-  background: linear-gradient(135deg,#1d2671,#c33764);
-  animation: gradientMove 8s infinite alternate;
-}
 
 @keyframes gradientMove{
   0%{background-position: left;}
   100%{background-position: right;}
+}
+
+@media (max-width:768px){
+
+  body{
+    padding: 20px;
+    align-items: flex-start;
+  }
+
+  .container{
+    padding: 25px 20px;
+    width: 100%;
+  }
+
+  .container h1{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  label{
+    font-size: 16px;
+  }
+
+  .container input{
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button{
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .projects-wrapper{
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .dev-title{
+    font-size: 20px;
+  }
+
+  .project-heading{
+    font-size: 18px;
+  }
+
+  .ko{
+    width: 100%;
+    font-size: 14px;
+  }
+
+}
+@media (max-width:480px){
+
+  body{
+    padding: 15px;
+  }
+
+  .container{
+    padding: 20px 15px;
+  }
+
+  .container h1{
+    font-size: 20px;
+  }
+
+  .ko{
+    width: 100%;
+  }
+
 }

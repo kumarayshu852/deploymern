@@ -83,12 +83,7 @@ function Home() {
                 <Link to="https://gandhimoderncalculator.netlify.app/" >
                     <button className="ko">6. Moder calculator</button>
                 </Link>
-
-                <Link to="https://gandhimoderncalculator.netlify.app/">
-                    <button className="ko">6. Modern calculator  </button>
-                </Link>
-                
-                <Link to="https://a-icoder-46ea.vercel.app/">
+                    <Link to="https://a-icoder-46ea.vercel.app/">
                     <button className="ko">7. AI Coder Explainer</button>
                 </Link>
 
@@ -113,6 +108,9 @@ function Home() {
                 </Link>
                     <Link to="https://rental-management-woad-five.vercel.app/">
                     <button className="ko">14.Rental Management System</button>
+                </Link>
+                     <Link to="https://genre-walnut-59802026.figma.site/">
+                    <button className="ko">15.English Learning Roadmap</button>
                 </Link>
             </div>
 

@@ -112,6 +112,10 @@ function Home() {
                      <Link to="https://genre-walnut-59802026.figma.site/">
                     <button className="ko">15.English Learning Roadmap</button>
                 </Link>
+                    </Link>
+                     <Link to="https://auraverse-ai.vercel.app/">
+                    <button className="ko">16. AURAVERSE — Advanced AI Interface</button>
+                </Link>
         </div>
 
 

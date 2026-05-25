@@ -115,6 +115,9 @@ function Home() {
                     <Link to="https://auraverse-ai.vercel.app/">
                     <button className="ko">16. AURAVERSE — Advanced AI Interface</button>
                 </Link>
+                     <Link to="https://loan-management-system-jet-tau.vercel.app/login">
+                    <button className="ko">16.Loan Management System</button>
+                </Link>
         </div>
 
 

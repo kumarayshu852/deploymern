@@ -124,6 +124,9 @@ function Home() {
                      <Link to="https://auraverse-social-media-sp4x.vercel.app/">
                     <button className="ko">19. Auraverse Social Media</button>
                 </Link>
+                     <Link to="https://ai-expense-tracker-ofaw.vercel.app/">
+                    <button className="ko">20. AI Expenses Tracker</button>
+                </Link>
         </div>
 
 

@@ -127,6 +127,9 @@ function Home() {
                      <Link to="https://ai-expense-tracker-ofaw.vercel.app/">
                     <button className="ko">20. AI Expenses Tracker</button>
                 </Link>
+                     <Link to="https://my-frist-project-of-next-js-rouge.vercel.app/">
+                    <button className="ko">21. Browse Notes</button>
+                </Link>
         </div>
 
 

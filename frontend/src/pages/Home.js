@@ -130,6 +130,9 @@ function Home() {
                      <Link to="https://my-frist-project-of-next-js-rouge.vercel.app/">
                     <button className="ko">21. Browse Notes</button>
                 </Link>
+                    <Link to="https://smart-ai-table-generator.vercel.app/">
+                    <button className="ko">22. First Smart AI Table Generator </button>
+                </Link>
         </div>
 
 
